@@ -17,17 +17,20 @@
 .main--fullpage{
   margin-top: -30px;
 }
-.landing--content{
-  position: relative;
+.landing__content{
+  position:relative;
   overflow: auto;
   float: inherit;
   margin-top: 400px;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 45px;
+}
+.landing__content--head{
+  color: #D00d20;
 }
 .panel__mid{
   background-color:#F0F0F0;
-  height: 275px;
+  height: 350px;
   width: auto;
 }
 .clearfix::after {
@@ -38,8 +41,8 @@
 
 .panel__mid--pic {
   padding-top: 15px;
-  height: 260px;
-  width: 260px;
+  height: 330px;
+  width: 350px;
   float: right;
 }
 .panel__mid--header{
@@ -47,9 +50,22 @@
 }
 .panel__mid--content{
   position: relative;
-  left: 105px;
-  padding-top: 85px;
+  left: 0px;
+  padding-top: 115px;
   text-align: center;
-  width: 350px;
+  width: 500px;
   word-wrap: break-word;
+}
+.panel__section{
+  position: relative;
+  margin-top: 30px;
+  mso-cellspacing: 300px;
+}
+.panel{
+  position: relative;
+  border-collapse: separate;
+}
+.panel__content{
+  height: 185px;
+  padding: 30px;
 }
