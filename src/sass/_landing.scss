@@ -13,11 +13,13 @@
   position: relative;
   text-align: center;
   z-index: 3;
-  transform: translateY(275%);
+  transform: translateY(200%);
   color: #FAFAFA;
 }
-.main--fullpage{
+.header__section{
   margin-top: -30px;
+  height: 100%;
+  width: 100%;
 }
 .landing__content{
   position:relative;
@@ -30,7 +32,7 @@
 .landing__content--head{
   color: #D00d20;
 }
-.panel__mid{
+.panel2{
   background-color:#F0F0F0;
   height: 350px;
   width: auto;
@@ -41,16 +43,16 @@
   display: table;
 }
 
-.panel__mid--pic {
+.panel2__pic {
   padding-top: 15px;
   height: 330px;
   width: 350px;
   float: right;
 }
-.panel__mid--header{
+.panel2__header{
   color: #d00d2d;
 }
-.panel__mid--content{
+.panel2__content{
   position: relative;
   left: 0px;
   padding-top: 115px;
