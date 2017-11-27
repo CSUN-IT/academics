@@ -163,10 +163,6 @@ footer {
   border-bottom: solid 1px #e7e7e7;
 }
 
-footer {
-  margin-top: 0;
-}
-
 .clearfix:after {
   visibility: hidden;
   display: block;
