@@ -1,11 +1,13 @@
 .panel__top{
   position: absolute;
-  height: 475px;
-  width: 1165px;
+  height: 734px;
+  width: 1264px;
   display: inline-block;
   -webkit-filter: brightness(.5);
   filter: brightness(.5);
   float: inherit;
+  clip:rect(0, 1264px, 420px, 0);
+  //top right bottom left
 }
 .panel__top--content{
   position: relative;
