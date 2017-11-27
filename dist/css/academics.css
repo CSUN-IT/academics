@@ -12,7 +12,12 @@
   -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
   float: inherit;
+  text-align: center;
   clip: rect(0, 1264px, 420px, 0);
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: 1;
 }
 
 .panel__top--content {
@@ -25,7 +30,7 @@
 }
 
 .header__section {
-  margin-top: -30px;
+  margin-top: -90px;
   height: 100%;
   width: 100%;
 }
@@ -34,7 +39,7 @@
   position: relative;
   overflow: auto;
   float: inherit;
-  margin-top: 400px;
+  margin-top: 220px;
   text-align: center;
   padding-bottom: 45px;
 }
