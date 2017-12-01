@@ -1,0 +1,192 @@
+.primary-nav__link {
+  font-size: 14px;
+  display: block;
+  font-family: "museo-sans", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.panel__top {
+  position: absolute;
+  height: 734px;
+  width: 1264px;
+  display: inline-block;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  float: inherit;
+  text-align: center;
+  clip: rect(0, 1265px, 420px, 0);
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: 1;
+}
+
+.panel__top--content {
+  position: relative;
+  text-align: center;
+  z-index: 3;
+  -webkit-transform: translateY(200%);
+          transform: translateY(200%);
+  color: #FAFAFA;
+}
+
+.header__section {
+  margin-top: -90px;
+  height: 100%;
+  width: 100%;
+}
+
+.landing__content {
+  position: relative;
+  overflow: auto;
+  float: inherit;
+  margin-top: 220px;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.landing__content--head {
+  color: #D00d20;
+}
+
+.panel2 {
+  background-color: #F0F0F0;
+  height: 350px;
+  width: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.panel2__pic {
+  padding-top: 15px;
+  height: 330px;
+  width: 350px;
+  float: right;
+}
+
+.panel2__header {
+  color: #d00d2d;
+}
+
+.panel2__content {
+  position: relative;
+  left: 0px;
+  padding-top: 115px;
+  text-align: center;
+  width: 500px;
+  word-wrap: break-word;
+}
+
+.panel__section {
+  position: relative;
+  margin-top: 30px;
+  mso-cellspacing: 300px;
+}
+
+.panel {
+  position: relative;
+  border-collapse: separate;
+}
+
+.panel__content {
+  height: 185px;
+  padding: 30px;
+}
+
+footer {
+  position: relative;
+  margin-top: 300px;
+  margin-bottom: 0px;
+}
+
+.sea__post {
+  margin-top: -220px;
+  height: 550px;
+  width: 1150px;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+}
+
+.container {
+  position: relative;
+}
+
+.sea__post {
+  position: absolute;
+  clip: rect(200px, 1200px, 400px, 0);
+  /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: 1;
+}
+
+.panel__top--content1 {
+  position: relative;
+  text-align: center;
+  z-index: 3;
+  -webkit-transform: translateY(125%);
+          transform: translateY(125%);
+  color: #FAFAFA;
+}
+
+.mid__nav {
+  position: relative;
+  padding-top: 5px;
+  margin-top: 90px;
+  text-align: left;
+}
+
+.nav-sub li {
+  display: inline-block;
+}
+
+.nav-sub {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.projects__body {
+  padding-top: 5px;
+}
+
+.panel__row {
+  display: inline-block;
+}
+
+.products__header {
+  line-height: 60px;
+  border-bottom: solid 1px #e7e7e7;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* start commented backslash hack \*/
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
