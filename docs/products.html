@@ -19,24 +19,29 @@
 </head>
 <body>
 <div class="header">
-    <nav class="top-nav">
+    <nav class="primary-nav">
         <div class="container">
-            <div class="top-nav__btn">
-                <a href="//www.csun.edu" class="primary-nav__brand"><span class="sr-only">California State University, Northridge (CSUN)</span></a>
-                <a href="../index.html" class="primary-nav__sub-brand">Fall Immersive</a>
+            <div class="primary-nav__mobile">
+                <div class="primary-nav__btn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <a href="//www.csun.edu" class="primary-nav__brand">
+                    <span class="sr-only">California State University, Northridge (CSUN)</span>
+                </a>
+                <a href="index.html" class="primary-nav__sub-brand">Academics</a>
             </div>
-            <div class="top-nav__list">
-                <ul class="primary-nav__links">
-                    <li><a class="primary-nav__link" href="../index.html">Home</a></li>
-                    <li><a class="primary-nav__link active" href="products.html">Products</a></li>
-                </ul>
-            </div>
+            <ul class="primary-nav__links primary-nav__link--open">
+                <li><a class="primary-nav__link active" href="index.html">Home</a></li>
+                <li><a class="primary-nav__link" href="docs/products.html">Products</a></li>
+            </ul>
         </div>
     </nav>
 </div>
 <div class="projects--fullpage">
     <div class="section">
-        <img class="sea__post" src="../img/panel--photos/sea_post.jpg" alt="open sea">
+        <img class="sea__post type--center" src="../img/panel--photos/sea_post.jpg" alt="open sea">
         <div class="container">
             <div class="row">
                 <h1 class="panel__top--content1">Welcome to META+LAB Sandbox Environment</h1>
@@ -256,5 +261,6 @@
         </div>
     </div>
 </div>
+<script src="//cdn.metalab.csun.edu/metaphor/js/metaphor.js"></script>
 </body>
 </html>
