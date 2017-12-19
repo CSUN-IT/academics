@@ -15,13 +15,14 @@
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 1;
+  margin-bottom: 100px;
 }
 .panel__top--content1{
 position: relative;
 text-align: center;
 z-index: 3;
-transform: translateY(125%);
 color: #FAFAFA;
+  padding-top: 30px;
 }
 .mid__nav{
   position: relative;
@@ -37,7 +38,7 @@ color: #FAFAFA;
   text-decoration: none;
   list-style-type: none;
 }
-.projects__body{
+.products__body{
   padding-top: 5px;
 }
 .panel__row{
@@ -46,4 +47,7 @@ color: #FAFAFA;
 .products__header{
   line-height: 60px;
   border-bottom: solid 1px #e7e7e7;
+}
+.products__footer{
+  margin-top:-50px;
 }
