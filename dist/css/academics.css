@@ -96,6 +96,10 @@
   padding: 30px;
 }
 
+.landing__footer {
+  margin-top: -150px;
+}
+
 footer {
   position: relative;
   margin-top: 300px;
