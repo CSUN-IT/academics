@@ -1,7 +1,7 @@
 .panel__top{
   position: absolute;
   height: 734px;
-  width: 1264px;
+  width: 100%;
   display: inline-block;
   -webkit-filter: brightness(.5);
   filter: brightness(.5);
@@ -39,7 +39,7 @@
 .panel2{
   background-color:#F0F0F0;
   height: 400px;
-  width: auto;
+  width: 100%;
 }
 .clearfix::after {
   content: "";
@@ -57,11 +57,10 @@
   color: #d00d2d;
 }
 .panel2__content{
-  position: relative;
   left: 0px;
   padding-top: 115px;
   text-align: center;
-  width: 500px;
+  width: 100%;
   word-wrap: break-word;
 }
 .panel__section{

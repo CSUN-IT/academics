@@ -1,9 +1,24 @@
 .sea__post{
   margin-top: -220px;
   height: 550px;
-  width: 1150px;
+  width: 100%;
   -webkit-filter: brightness(.5);
   filter: brightness(.5);
+}
+.sea_post1{
+  position: absolute;
+  height: 550px;
+  width: 1150px;
+  display: inline-block;
+  -webkit-filter: brightness(.5);
+  filter: brightness(.5);
+  text-align: center;
+  clip:rect(0, 1265px, 420px, 0);
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  //top right bottom left
+  padding-bottom: 250px;
 }
 .container {
   position: relative;
@@ -22,7 +37,7 @@ position: relative;
 text-align: center;
 z-index: 3;
 color: #FAFAFA;
-  padding-top: 30px;
+  padding-top: 45px;
 }
 .mid__nav{
   position: relative;

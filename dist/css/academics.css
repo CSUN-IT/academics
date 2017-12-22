@@ -7,7 +7,7 @@
 .panel__top {
   position: absolute;
   height: 734px;
-  width: 1264px;
+  width: 100%;
   display: inline-block;
   -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
@@ -51,7 +51,7 @@
 .panel2 {
   background-color: #F0F0F0;
   height: 400px;
-  width: auto;
+  width: 100%;
 }
 
 .clearfix::after {
@@ -72,11 +72,10 @@
 }
 
 .panel2__content {
-  position: relative;
   left: 0px;
   padding-top: 115px;
   text-align: center;
-  width: 500px;
+  width: 100%;
   word-wrap: break-word;
 }
 
@@ -109,9 +108,25 @@ footer {
 .sea__post {
   margin-top: -220px;
   height: 550px;
-  width: 1150px;
+  width: 100%;
   -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
+}
+
+.sea_post1 {
+  position: absolute;
+  height: 550px;
+  width: 1150px;
+  display: inline-block;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  text-align: center;
+  clip: rect(0, 1265px, 420px, 0);
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: 1;
+  padding-bottom: 250px;
 }
 
 .container {
@@ -134,7 +149,7 @@ footer {
   text-align: center;
   z-index: 3;
   color: #FAFAFA;
-  padding-top: 30px;
+  padding-top: 45px;
 }
 
 .mid__nav {
