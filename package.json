@@ -15,12 +15,12 @@
   "author": "frlzjosh <joshua.magdaleno.472@my.csun.edu>",
   "license": "MIT",
   "dependencies": {
-    "laravel-mix": "^1.6.1"
+    "laravel-mix": "^1.7.2"
   },
   "devDependencies": {
     "cross-env": "^5.0.5",
     "install-peers": "^1.0.2",
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.4"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
   }
 }
